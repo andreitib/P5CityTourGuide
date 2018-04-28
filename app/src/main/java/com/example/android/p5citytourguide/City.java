@@ -1,22 +1,22 @@
 package com.example.android.p5citytourguide;
 
 /**
- * {@link City}represents a party location in Romania.
+ * {@link City}represents a tourist atraction in city Iasi, Romania.
  * It contains the name, description, image and address.
  */
 
 class City {
-    //Name of party hotspot
+    //Name of tourist atraction
     private final String CityName;
-    //Image of party hotspot
+    //Image of tourist atraction
     private final int CityImageId;
-    //Address of party hotspot
+    //Address of tourist atraction
     private final String CityAddress;
-    //Phone of party hotspot
+    //Phone of tourist atraction
     private final String CityPhone;
 
     /**
-     * Create a new Party Hot Spot object.
+     * Create a new tourist atraction object.
      */
     public City(String CityName, int CityImageId, String CityAddress, String CityPhone){
         this.CityName = CityName;
@@ -26,28 +26,28 @@ class City {
     }
 
     /**
-     * Gets the party hotspot name.
+     * Gets the tourist atraction name.
      */
     public String getCityName() {
         return CityName;
     }
 
     /**
-     *Gets the party hotspot image resource id.
+     *Gets the party tourist atraction resource id.
      */
     public int getCityImageId() {
         return CityImageId;
     }
 
     /**
-     *Gets the party hotspot image address.
+     *Gets the tourist atraction image address.
      */
     public String getCityAddress() {
         return CityAddress;
     }
 
     /**
-     * Gets the party hotspot phone.
+     * Gets the tourist atraction phone.
      */
     public String getCityPhone() {
         return CityPhone;

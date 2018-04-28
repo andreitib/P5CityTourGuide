@@ -35,9 +35,12 @@ public class RestaurantsFragment extends Fragment {
         city.add(new City(getString(R.string.restaurant_laconac), R.drawable.restaurant_laconac,"Strada Gane Nicolae,Nr. 27,CP 700110", "0746279893"));
         city.add(new City(getString(R.string.restaurant_mamma_mia), R.drawable.restaurant_mamma_mia,"Bulevard Stefan cel Mare si Sfant,Nr 17, CP 700124", "0762662642"));
 
-
-        CategoryAdapter adapter = new CategoryAdapter(getActivity(), city);
-
+        // Create an {@link CityAdapter}, whose data source is a list of {@link Citie}s. The
+        // adapter knows how to create list grid items for each item in the list.
+        CityAdapter adapter = new CityAdapter(getActivity(), city);
+        // Find the {@link GridView} object in the view hierarchy of the {@link Activity}.
+        // There should be a {@link GridView} with the view ID called list, which is declared in the
+        // iasicitytour_grid.xml layout file.
         GridView gridView = rootView.findViewById(R.id.grid);
         gridView.setAdapter(adapter);
 

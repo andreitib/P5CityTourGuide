@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        CityAdapter adapter = new CityAdapter(getSupportFragmentManager());
+        CategoryAdapter adapter = new CategoryAdapter(getSupportFragmentManager());
         // Find the view pager that will allow the user to swipe between fragments
         viewPager = findViewById(R.id.viewpager);
         // Set the adapter onto the view pager

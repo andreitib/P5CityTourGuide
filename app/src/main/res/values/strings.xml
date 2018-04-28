@@ -1,16 +1,9 @@
 <resources>
     <string name="app_name">Iasi City Tour Guide</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-
-
-
     <string name="nav_open_draw">Open navigation drawer</string>
     <string name="nav_close_draw">Close navigation drawer</string>
-
     <string name="navigation_title_header">Iasi Tourist Places</string>
-
-
     <string name="nav_header_desc">Navigation header</string>
     <!-- List of tourist objectives -->
     <string name="innitalia">InnItalia - La casa di Romeo e Giulietta</string>
@@ -43,4 +36,13 @@
     <string name="restaurant_innitalia">Restaurant Innitalia - La Casa di Romeo e Giulieta</string>
     <string name="restaurant_laconac">Restaurant La Conac</string>
     <string name="restaurant_mamma_mia">Restaurant Mamma Mia</string>
+    <!-- List of tourist groups objectives -->
+    <string name="museums_main_drawer">Museums</string>
+    <string name="funplaces_main_drawer">Funplaces</string>
+    <string name="restaurants_main_drawer">Restaurants</string>
+    <string name="hotels_main_drawer">Hotels</string>
+    <!-- List of grid item details -->
+    <string name="phonenumber_grid_item">0728765027</string>
+    <string name="adress_grid_item">Strada Tudor Vladimirescu 700259</string>
+    <string name="touristatraction_grid_item">Iasi City Tour Guide</string>
 </resources>

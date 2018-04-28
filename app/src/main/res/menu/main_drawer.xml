@@ -6,19 +6,25 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_hotels"
-            android:title="Hotels"
+            android:title="@string/hotels_main_drawer"
+            android:icon="@drawable/ic_play_arrow_white"
             />
         <item
             android:id="@+id/nav_restaurants"
-            android:title="Restaurants"
+            android:title="@string/restaurants_main_drawer"
+            android:icon="@drawable/ic_play_arrow_white"
             />
         <item
             android:id="@+id/nav_funplaces"
-            android:title="Funplaces"
+            android:title="@string/funplaces_main_drawer"
+            android:icon="@drawable/ic_play_arrow_white"
+
             />
         <item
             android:id="@+id/nav_museums"
-            android:title="Museums"         />
+            android:title="@string/museums_main_drawer"
+            android:icon="@drawable/ic_play_arrow_white"
+            />
     </group>
 
 </menu>

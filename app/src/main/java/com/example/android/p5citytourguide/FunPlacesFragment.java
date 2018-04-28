@@ -36,9 +36,12 @@ public class FunPlacesFragment extends Fragment {
         city.add(new City(getString(R.string.room_master_escape_), R.drawable.club_master,"Bulevardul Socola,Nr. 22,CP 700187", "0740505753"));
         city.add(new City(getString(R.string.zero_gravity_climbing), R.drawable.zero_gravity_climbing,"Strada Plopii fara Sot,Nr. 28,CP 700273", "0734011115"));
         city.add(new City(getString(R.string.escape_room_madscape), R.drawable.room_madscape,"Soseaua Nationala,Nr. 180A,,CP 218994", "0799459859"));
-
-        CategoryAdapter adapter = new CategoryAdapter(getActivity(), city);
-
+        // Create an {@link CityAdapter}, whose data source is a list of {@link Citie}s. The
+        // adapter knows how to create list grid items for each item in the list.
+        CityAdapter adapter = new CityAdapter(getActivity(), city);
+        // Find the {@link GridView} object in the view hierarchy of the {@link Activity}.
+        // There should be a {@link GridView} with the view ID called list, which is declared in the
+        // iasicitytour_grid.xml layout file.
         GridView gridView = rootView.findViewById(R.id.grid);
         gridView.setAdapter(adapter);
 
