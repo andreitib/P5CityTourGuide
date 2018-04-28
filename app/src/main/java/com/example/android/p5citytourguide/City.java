@@ -2,7 +2,7 @@ package com.example.android.p5citytourguide;
 
 /**
  * {@link City}represents a tourist atraction in city Iasi, Romania.
- * It contains the name, description, image and address.
+ * It contains the name,image, address and phone.
  */
 
 class City {
