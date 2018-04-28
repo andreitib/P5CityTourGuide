@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Iasi City Tour Guide</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+
+    <string name="nav_open_draw">Open navigation drawer</string>
+    <string name="nav_close_draw">Close navigation drawer</string>
+
+    <string name="navigation_title_header">Iasi Tourist Places</string>
+
+
+    <string name="nav_header_desc">Navigation header</string>
+    <!-- List of tourist objectives -->
+    <string name="innitalia">InnItalia - La casa di Romeo e Giulietta</string>
+    <string name="muzeul_universitatii">Muzeul Universitatii Alexandru Ioan Cuza</string>
+    <string name="muzeul_bojdeuca_creanga">Bojdeauca lui Ion Creanga</string>
+    <string name="muzeul_mihail_sadoveanu">Mihail Sadoveanu Memorial House</string>
+    <string name="club_coopers_lounge">Club Coopers Lounge</string>
+    <string name="club_fratelli">Fratelli Lounge Club</string>
+    <string name="club_skin">Club Skin Music Lounge Iasi</string>
+    <string name="zero_gravity_climbing">Zero Gravity Climbing Gym</string>
+    <string name="club_babylon">Club Babylon</string>
+    <string name="club_master">Club Master</string>
+    <string name="room_master_escape_">Escape Master Room</string>
+    <string name="escape_room_madscape">Escape Room Madscape</string>
+    <string name="hotel_international">Hotel International</string>
+    <string name="hotel_pleiada">Pleiada Boutique Hotel  Spa</string>
+    <string name="hotel_bellaria">Hotel Bellaria</string>
+    <string name="hotel_il_primo">Hotel Il Primo</string>
+    <string name="hotel_belleville">Hotel Belleville</string>
+    <string name="hotel_hampton_by_hilton">Hotel Hampton by Hilton</string>
+    <string name="hotel_ildis">Hotel Ildis</string>
+    <string name="unirea_hotel_spa">Unirea Hotel  Spa</string>
+    <string name="muzeul_casa_dosoftei">Muzeul Casa Dosoftei</string>
+    <string name="muzeul_union">Muzeul Union</string>
+    <string name="muzeul_municipal">Muzeul Municipal</string>
+    <string name="muzeul_metropolitan">Muzeul Metropolitan</string>
+    <string name="restaurant_panoramic">Restaurant Panoramic</string>
+    <string name="restaurant_oscar">Restaurant Oscar</string>
+    <string name="restaurant_cuib">Restaurant Cuib</string>
+    <string name="restaurant_innitalia">Restaurant Innitalia - La Casa di Romeo e Giulieta</string>
+    <string name="restaurant_laconac">Restaurant La Conac</string>
+    <string name="restaurant_mamma_mia">Restaurant Mamma Mia</string>
+</resources>

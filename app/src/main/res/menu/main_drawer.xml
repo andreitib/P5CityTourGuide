@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_hotels"
+            android:title="Hotels"
+            />
+        <item
+            android:id="@+id/nav_restaurants"
+            android:title="Restaurants"
+            />
+        <item
+            android:id="@+id/nav_funplaces"
+            android:title="Funplaces"
+            />
+        <item
+            android:id="@+id/nav_museums"
+            android:title="Museums"         />
+    </group>
+
+</menu>
