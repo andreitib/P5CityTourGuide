@@ -28,12 +28,12 @@ public class RestaurantsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.iasicitytour_grid, container, false);
         // Create a list of words
         ArrayList<City> city = new ArrayList<>();
-        city.add(new City(getString(R.string.restaurant_panoramic), R.drawable.restaurant_panoramic,"Piata Unirii,Nr.5, Etaj 13,CP 700056", "0232205013"));
-        city.add(new City(getString(R.string.restaurant_oscar), R.drawable.restaurant_oscar,"Strada Lascar Catargi,Nr. 16,CP 700107", "0745245251"));
-        city.add(new City(getString(R.string.restaurant_cuib), R.drawable.restaurant_cuib,"Gavriil Musicescu,Nr. 14,CP 700127", "0743604229"));
-        city.add(new City(getString(R.string.restaurant_innitalia), R.drawable.restaurant_innitalia,"Piata Unirii,Nr. 2,CP 238901", "0232273951"));
-        city.add(new City(getString(R.string.restaurant_laconac), R.drawable.restaurant_laconac,"Strada Gane Nicolae,Nr. 27,CP 700110", "0746279893"));
-        city.add(new City(getString(R.string.restaurant_mamma_mia), R.drawable.restaurant_mamma_mia,"Bulevard Stefan cel Mare si Sfant,Nr 17, CP 700124", "0762662642"));
+        city.add(new City(getString(R.string.restaurant_panoramic), R.drawable.restaurant_panoramic,getString(R.string.adress_restaurant_panoramic), getString(R.string.phone_restaurant_panoramic)));
+        city.add(new City(getString(R.string.restaurant_oscar), R.drawable.restaurant_oscar,getString(R.string.adress_restaurant_oscar), getString(R.string.phone_restaurant_oscar)));
+        city.add(new City(getString(R.string.restaurant_cuib), R.drawable.restaurant_cuib,getString(R.string.adress_restaurant_cuib), getString(R.string.phone_restaurant_cuib)));
+        city.add(new City(getString(R.string.restaurant_innitalia), R.drawable.restaurant_innitalia,getString(R.string.adress_restaurant_innitalia), getString(R.string.phone_restaurant_innitalia)));
+        city.add(new City(getString(R.string.restaurant_laconac), R.drawable.restaurant_laconac,getString(R.string.adress_restaurant_laconac), getString(R.string.phone_restaurant_laconac)));
+        city.add(new City(getString(R.string.restaurant_mamma_mia), R.drawable.restaurant_mamma_mia,getString(R.string.adress_restaurant_mamma_mia), getString(R.string.phone_restaurant_mamma_mia)));
 
         // Create an {@link CityAdapter}, whose data source is a list of {@link Citie}s. The
         // adapter knows how to create list grid items for each item in the list.

@@ -28,14 +28,14 @@ public class FunPlacesFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.iasicitytour_grid, container, false);
         // Create a list of words
         ArrayList<City> city = new ArrayList<>();
-        city.add(new City(getString(R.string.club_coopers_lounge), R.drawable.club_coopers_lounge,"Strada Tudor Vladimirescu,Nr. 56,CP 700259", "0758104822"));
-        city.add(new City(getString(R.string.club_fratelli), R.drawable.club_fratelli,"Strada Tudor Vladimirescu,Nr. 2,CP 700259", "0758104822"));
-        city.add(new City(getString(R.string.club_skin), R.drawable.club_skin,"Strada Constantin Mille,Nr. 4,CP 030167", "0748130500"));
-        city.add(new City(getString(R.string.club_babylon), R.drawable.club_babylon,"Str Anastasie Panu,Nr. 1,CP 700020", "0751606843"));
-        city.add(new City(getString(R.string.club_master), R.drawable.club_master,"Strada Țepeș Vodă,Nr. 1,CP 700259", "0724783123"));
-        city.add(new City(getString(R.string.room_master_escape_), R.drawable.club_master,"Bulevardul Socola,Nr. 22,CP 700187", "0740505753"));
-        city.add(new City(getString(R.string.zero_gravity_climbing), R.drawable.zero_gravity_climbing,"Strada Plopii fara Sot,Nr. 28,CP 700273", "0734011115"));
-        city.add(new City(getString(R.string.escape_room_madscape), R.drawable.room_madscape,"Soseaua Nationala,Nr. 180A,,CP 218994", "0799459859"));
+        city.add(new City(getString(R.string.club_coopers_lounge), R.drawable.club_coopers_lounge,getString(R.string.adress_club_coopers_lounge), getString(R.string.phone_club_coopers_lounge)));
+        city.add(new City(getString(R.string.club_fratelli), R.drawable.club_fratelli,getString(R.string.adress_club_fratelli), getString(R.string.phone_club_fratelli)));
+        city.add(new City(getString(R.string.club_skin), R.drawable.club_skin,getString(R.string.adress_club_skin), getString(R.string.phone_club_skin)));
+        city.add(new City(getString(R.string.club_babylon), R.drawable.club_babylon,getString(R.string.adress_club_babylon), getString(R.string.phone_club_babylon)));
+        city.add(new City(getString(R.string.club_master), R.drawable.club_master,getString(R.string.adress_club_master), getString(R.string.phone_club_master)));
+        city.add(new City(getString(R.string.room_master_escape_), R.drawable.room_master_escape,getString(R.string.adress_room_master_escape), getString(R.string.phone_room_master_escape)));
+        city.add(new City(getString(R.string.zero_gravity_climbing), R.drawable.zero_gravity_climbing,getString(R.string.adress_zero_gravity_climbing), getString(R.string.phone_zero_gravity_climbing)));
+        city.add(new City(getString(R.string.escape_room_madscape), R.drawable.room_madscape,getString(R.string.adress_room_madscape), getString(R.string.phone_room_madscape)));
         // Create an {@link CityAdapter}, whose data source is a list of {@link Citie}s. The
         // adapter knows how to create list grid items for each item in the list.
         CityAdapter adapter = new CityAdapter(getActivity(), city);

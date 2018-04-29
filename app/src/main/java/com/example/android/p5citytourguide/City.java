@@ -7,49 +7,49 @@ package com.example.android.p5citytourguide;
 
 class City {
     //Name of tourist atraction
-    private final String CityName;
+    private final String Name;
     //Image of tourist atraction
-    private final int CityImageId;
+    private final int ImageId;
     //Address of tourist atraction
-    private final String CityAddress;
+    private final String Address;
     //Phone of tourist atraction
-    private final String CityPhone;
+    private final String Phone;
 
     /**
      * Create a new tourist atraction object.
      */
-    public City(String CityName, int CityImageId, String CityAddress, String CityPhone){
-        this.CityName = CityName;
-        this.CityImageId = CityImageId;
-        this.CityAddress = CityAddress;
-        this.CityPhone = CityPhone;
+    public City(String Name, int ImageId, String Address, String Phone){
+        this.Name = Name;
+        this.ImageId = ImageId;
+        this.Address = Address;
+        this.Phone = Phone;
     }
 
     /**
      * Gets the tourist atraction name.
      */
-    public String getCityName() {
-        return CityName;
+    public String getName() {
+        return Name;
     }
 
     /**
      *Gets the party tourist atraction resource id.
      */
-    public int getCityImageId() {
-        return CityImageId;
+    public int getImageId() {
+        return ImageId;
     }
 
     /**
      *Gets the tourist atraction image address.
      */
-    public String getCityAddress() {
-        return CityAddress;
+    public String getAddress() {
+        return Address;
     }
 
     /**
      * Gets the tourist atraction phone.
      */
-    public String getCityPhone() {
-        return CityPhone;
+    public String getPhone() {
+        return Phone;
     }
 }

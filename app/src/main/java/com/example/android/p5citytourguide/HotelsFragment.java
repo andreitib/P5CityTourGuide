@@ -29,14 +29,14 @@ public class HotelsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.iasicitytour_grid, container, false);
         // Create a list of words
         ArrayList<City> city = new ArrayList<>();
-        city.add(new City(getString(R.string.hotel_international), R.drawable.hotel_international,"Strada Palat,Nr. 5A,CP 700032", "0332110060"));
-        city.add(new City(getString(R.string.hotel_pleiada), R.drawable.hotel_pleiada,"Sos. Bucium,Nr. 18 B,CP 700282", "0332425425"));
-        city.add(new City(getString(R.string.hotel_bellaria), R.drawable.hotel_bellaria,"Soseaua Bucium,Nr. 7,CP 700280", "0332233870"));
-        city.add(new City(getString(R.string.hotel_il_primo), R.drawable.hotel_il_primo,"Strada Fericirii,Nr. 10,CP 707027", "0723206865"));
-        city.add(new City(getString(R.string.hotel_belleville), R.drawable.hotel_belleville,"Strada Ciurchi,Nr. 21,CP 700313", "0743222242"));
-        city.add(new City(getString(R.string.hotel_hampton_by_hilton), R.drawable.hotel_hampton_by_hilton_iasi,"St. Anastasie Panu,Nr.23,CP 2699999","0232242000"));
-        city.add(new City(getString(R.string.hotel_ildis), R.drawable.hotel_ildis,"Strada Muntenimii,Nr. 7,CP 99999", "0232447777"));
-        city.add(new City(getString(R.string.unirea_hotel_spa), R.drawable.hotel_unirea_hotel_spa,"Piata Unirii,Nr. 5,CP 700056", "0232205000"));
+        city.add(new City(getString(R.string.hotel_international), R.drawable.hotel_international,getString(R.string.adress_hotel_international), getString(R.string.phone_hotel_international)));
+        city.add(new City(getString(R.string.hotel_pleiada), R.drawable.hotel_pleiada,getString(R.string.adress_hotel_pleiada), getString(R.string.phone_hotel_pleiada)));
+        city.add(new City(getString(R.string.hotel_bellaria), R.drawable.hotel_bellaria,getString(R.string.adress_hotel_bellaria), getString(R.string.phone_hotel_bellaria)));
+        city.add(new City(getString(R.string.hotel_il_primo), R.drawable.hotel_il_primo,getString(R.string.adress_hotel_il_primo), getString(R.string.phone_hotel_il_primo)));
+        city.add(new City(getString(R.string.hotel_belleville), R.drawable.hotel_belleville,getString(R.string.adress_hotel_belleville), getString(R.string.phone_hotel_belleville)));
+        city.add(new City(getString(R.string.hotel_hampton_by_hilton), R.drawable.hotel_hampton_by_hilton_iasi,getString(R.string.adress_hotel_hampton_by_hilton_iasi),getString(R.string.phone_hotel_hampton_by_hilton_iasi)));
+        city.add(new City(getString(R.string.hotel_ildis), R.drawable.hotel_ildis,getString(R.string.adress_hotel_ildis), getString(R.string.phone_hotel_ildis)));
+        city.add(new City(getString(R.string.unirea_hotel_spa), R.drawable.hotel_unirea_hotel_spa,getString(R.string.adress_hotel_unirea_hotel_spa), getString(R.string.phone_hotel_unirea_hotel_spa)));
 
         // Create an {@link CityAdapter}, whose data source is a list of {@link Citie}s. The
         // adapter knows how to create list grid items for each item in the list.
