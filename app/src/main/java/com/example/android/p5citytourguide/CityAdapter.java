@@ -43,7 +43,7 @@ class CityAdapter  extends ArrayAdapter<City> {
 
         // Find the TextView in the grid_item.xml layout with the ID name.
         TextView nameCityIasi = listItemView.findViewById(R.id.name);
-        // Get the party name from the currentCity object and set this text on
+        // Get the name from the currentCity object and set this text on
         // the name TextView.
         nameCityIasi.setText(currentCity.getCityName());
 
